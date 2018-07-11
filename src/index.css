@@ -18,12 +18,8 @@ cursive;
   background-image: url('https://images.unsplash.com/photo-1502209877429-d7c6df9eb3f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cd44aaf92575bed6437a6f67b6f0eec2&auto=format&fit=crop&w=1047&q=80');
 }
 
-/* .video-react{
-  width: 300px;
-  height: 300px;
-} */
+
 .finish {
-  background-image: url('http://pngimg.com/uploads/macbook/macbook_PNG55.png');
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -36,13 +32,6 @@ cursive;
 }
 
 
-
-
-/* body{
-  position: relative;
-  background-image: url('https://images.unsplash.com/photo-1502209877429-d7c6df9eb3f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cd44aaf92575bed6437a6f67b6f0eec2&auto=format&fit=crop&w=1047&q=80');
-  
-} */
 
 .youtubebut {
   font-size: 20PX !important;
@@ -113,12 +102,6 @@ a {
 button {
   text-align: center;
 }
-
-/* iframe {
-  width: 100%;
-  height: 100%;
-  
-} */
 
 
 
