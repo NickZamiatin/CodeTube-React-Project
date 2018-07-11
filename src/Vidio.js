@@ -12,11 +12,12 @@ render (){
     return (
         <div className="finish">
             <div className="screen">
-
+              <img src="http://pngimg.com/uploads/macbook/macbook_PNG55.png" />
+                 <video>
                 <YouTube
                     videoId={this.props.match.params.id}      
                 />
-
+                </video>
             </div>
             <ButtonGroup className="youtubeend">
                 <Button color="danger"><Link to="/" >Home</Link></Button>
