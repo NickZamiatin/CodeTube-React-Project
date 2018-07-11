@@ -17,8 +17,8 @@ render (){
                 />
             </div>
             <ButtonGroup className="youtubeend">
-                <Button color="danger"><Link to="/" >First page</Link></Button>
-                <Button color="danger"><Link to="/card" >Make choise </Link></Button>
+                <Button color="danger"><Link to="/" >Home</Link></Button>
+                <Button color="danger"><Link to="/card" >Change topic </Link></Button>
             </ButtonGroup>
         </div>
     )

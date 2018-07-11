@@ -56,7 +56,7 @@ class ListVideo extends Component {
           <CardTitle>{result.snippet.channelTitle}</CardTitle>
           <CardSubtitle></CardSubtitle>
           <CardText>{result.snippet.title}</CardText>
-          <Button color="danger"><Link to={`/video/${result.id.videoId}`} >Lets see</Link></Button>
+          <Button color="danger"><Link to={`/video/${result.id.videoId}`} >Watch it!</Link></Button>
         </CardBody>
       </Card>
       </Col>)
