@@ -2,7 +2,9 @@
 
 
 # Frontend  React Project CodeTube
-Web map is an app where the user can find places they need near them. The main idea works with google maps, location and allowed me to explore how to use google maps and location in a web app. You can filter by restaurants , night clubs and  bars . The search results will appear on the map as markers.
+CodeTube is an app where the user can find four favorite topics in web devlopment. The main idea works with youtube APIs.  This project allowed me to explore how to use YouTube APIs in a react app.
+
+You can filter by AWS, React, JavaScript or Coding Garden. The search results will appear on the next page as a card and then you can click a result to see the video inside an iMac.
 
 
 ## Setup
