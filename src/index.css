@@ -23,34 +23,25 @@ cursive;
   height: 300px;
 } */
 .finish {
-  width: 100vw;
-  height: 100vh;
+  background-image: url('http://pngimg.com/uploads/macbook/macbook_PNG55.png');
+  width: 100%;
+  height: 100%;
   background-size: cover;
   text-align: center;
   position: fixed;
-  background-image: url('http://pngimg.com/uploads/macbook/macbook_PNG55.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
-.youtubeend{
-
-  font-size: 20PX !important;
-  border-radius: 25% !important;
-  margin-top: 10px;
-  position: fixed;
-
-
-}
 
 
 
 /* body{
   position: relative;
   background-image: url('https://images.unsplash.com/photo-1502209877429-d7c6df9eb3f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cd44aaf92575bed6437a6f67b6f0eec2&auto=format&fit=crop&w=1047&q=80');
-
+  
 } */
 
 .youtubebut {
@@ -63,7 +54,7 @@ cursive;
 
 .card-group {
   background-image: url('https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0ae83373fe7bf60aaf6ceb8daa337fc9&auto=format&fit=crop&w=1957&q=80');
-   background-size: contain;
+  background-size: contain;
 }
 
 .card-group .card {
@@ -123,35 +114,34 @@ button {
   text-align: center;
 }
 
-iframe {
-  width: 880px;
-  height: 500px;
-  margin-right: 20%;
-}
+/* iframe {
+  width: 100%;
+  height: 100%;
+  
+} */
 
 
 
-.screen {
-  width: 45%;
+.finish .screen {
+
+  width: 100%;
+  height: 100%;
+  
+  position: absolute;
+  /*   
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  margin: 2% 1% 1% 19%;
+  background-position: center; */
+  margin: 2% 0% 0% 0%;
 }
 
-/* .screen {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 25px;
-  height: 50%;
-  width: 50%;
+.youtubeend{
 
+   margin-top: 400px;
+  position: relative;
+  
+  
 }
-.screen iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-} */
+
+

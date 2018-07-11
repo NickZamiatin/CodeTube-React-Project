@@ -12,9 +12,11 @@ render (){
     return (
         <div className="finish">
             <div className="screen">
+
                 <YouTube
                     videoId={this.props.match.params.id}      
                 />
+
             </div>
             <ButtonGroup className="youtubeend">
                 <Button color="danger"><Link to="/" >Home</Link></Button>
