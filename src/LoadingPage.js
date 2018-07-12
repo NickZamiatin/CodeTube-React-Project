@@ -9,8 +9,8 @@ class LoadingPage extends Component {
 render (){
     return (
         <div className="loading">
-         <Button   className="youtubebut"  color="danger"><Link to="/card">CodeTube </Link></Button>
-             </div>
+          <Button   className="youtubebut"  color="danger"><Link to="/card">CodeTube </Link></Button>
+         </div>
      )
     }
 }
