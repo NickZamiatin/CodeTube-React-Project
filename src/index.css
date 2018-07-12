@@ -1,12 +1,17 @@
-
 * {
-font-family: 'Comfortaa',
-cursive;
+  font-family: 'Comfortaa', cursive;
 }
 
-.app {
+body {
   width: 100vw !important;
   height: 100vh !important;
+}
+
+#root,
+.App,
+.main,
+.margin {
+  height: 100%;
 }
 
 .loading {
@@ -17,7 +22,6 @@ cursive;
   position: relative;
   background-image: url('https://images.unsplash.com/photo-1502209877429-d7c6df9eb3f9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cd44aaf92575bed6437a6f67b6f0eec2&auto=format&fit=crop&w=1047&q=80');
 }
-
 
 .finish {
   width: 100%;
@@ -31,7 +35,9 @@ cursive;
   background-position: center;
 }
 
-
+.half-height {
+  height: 50%;
+}
 
 .youtubebut {
   font-size: 20PX !important;
@@ -39,6 +45,10 @@ cursive;
   width: 200px;
   height: 100px !important;
   margin: 20% !important;
+}
+
+.margin {
+  height: 100%;
 }
 
 .card-group {
@@ -103,27 +113,44 @@ button {
   text-align: center;
 }
 
-
-
 .finish .screen {
-
   width: 100%;
   height: 100%;
-  
+}
+
+.screen {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen img {
+  width: 60%;
+}
+
+.youtube-video {
   position: absolute;
-  /*   
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; */
-  margin: 2% 0% 0% 0%;
 }
-
-.youtubeend{
-  margin-top: 400px;
+.youtubeend {
+margin-top: 2%;
+}
+.wrapper {
+  margin-top: 5% !important;
   position: relative;
-
-  
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  width: 100%;
 }
 
+.wrapper iframe {
+  position: absolute;
+  top: 6.5%;
+  left: 22.5%;
+  width: 55%;
+  height: 55%;
+}
 
