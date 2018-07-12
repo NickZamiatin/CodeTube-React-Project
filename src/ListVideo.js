@@ -28,7 +28,8 @@ class ListVideo extends Component {
   }
 
   componentDidMount() {
-    const searchWord = this.props.match.params.term;
+    // const searchWord = this.props.match.params.term;
+    const {term : searchWord} =  this.props.match.params
     let API_URL = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchWord}&type=video&maxResults=12&key=AIzaSyA81yLbQdfLtuusbrxBZAOl0s1Kgx8gGMI`
     fetch(API_URL)
       .then(res => res.json())
@@ -40,29 +41,29 @@ class ListVideo extends Component {
       })
     }
     
-    
-    render(){
+  render(){
     return (
-    <div>
-     <CardGroup>
-    {this.state.resultVideo.map(result =>{
-        return (<Col xs="4" key={result.id.videoId}>
-          <Card >
-             <CardImg top width="100%" src={result.snippet.thumbnails.high.url} alt="Card image cap" />
-            <CardBody>
-              <CardTitle>{result.snippet.channelTitle}</CardTitle>
-              <CardSubtitle></CardSubtitle>
-              <CardText>{result.snippet.title}</CardText>
-              <Button color="danger"><Link to={`/video/${result.id.videoId}`} >Watch it!</Link></Button>
-          </CardBody>
-       </Card>
-      </Col>)
-    })}
-      </CardGroup>
+      <div>
+       <CardGroup>
+        {this.state.resultVideo.map(result =>{
+            return (
+              <Col xs="4" key={result.id.videoId}>
+                <Card >
+                  <CardImg top width="100%" src={result.snippet.thumbnails.high.url} alt="Card image cap" />
+                  <CardBody>
+                    <CardTitle>{result.snippet.channelTitle}</CardTitle>
+                    <CardSubtitle></CardSubtitle>
+                    <CardText>{result.snippet.title}</CardText>
+                    <Button color="danger"><Link to={`/video/${result.id.videoId}`} >Watch it!</Link></Button>
+                </CardBody>
+              </Card>
+             </Col>
+          )
+        })}
+       </CardGroup>
     </div>
-    
     )
-}
+  }
 }
 
 export default ListVideo

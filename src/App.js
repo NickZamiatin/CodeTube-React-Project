@@ -9,9 +9,6 @@ import {Switch , Route} from "react-router-dom"
 const NotFound = () => <h1>NotFound</h1>
 
 class App extends Component {
-
-
-
   render() {
     return (
       <div className="App">
