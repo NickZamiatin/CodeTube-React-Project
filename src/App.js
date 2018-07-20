@@ -11,7 +11,7 @@ const NotFound = () => <h1>NotFound</h1>
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" style={{backgroundColor: "black" }}>
        <div className="main">
          <Switch>
             <Route exact path='/' component={LoadingPage}/>

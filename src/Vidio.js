@@ -14,6 +14,7 @@ class Video extends Component {
           <Button color="danger">
             <Link to="/card">Change topic </Link>
           </Button>
+          <Button color="danger" href="https://nickzamiatin.com/">Porfolio </Button>
         </ButtonGroup>
         <div className="screen">
           <div className="wrapper">
